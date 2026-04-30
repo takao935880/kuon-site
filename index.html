@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KUON Music Tools</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0d0d14;
+    color: #e8e8f0;
+    font-family: "Hiragino Sans", "Yu Gothic UI", "Segoe UI", sans-serif;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  header {
+    background: #12121c;
+    border-bottom: 1px solid #1e1e2e;
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  header h1 {
+    font-size: 22px;
+    letter-spacing: .12em;
+    color: #e8e8e8;
+  }
+  header span {
+    font-size: 13px;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: .06em;
+  }
+  .hero {
+    text-align: center;
+    padding: 80px 24px 60px;
+  }
+  .hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .06em;
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: 16px;
+    color: #aaa;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .card {
+    background: #16161f;
+    border: 1px solid #2a2a35;
+    border-radius: 14px;
+    padding: 28px 24px;
+  }
+  .card h3 {
+    font-size: 17px;
+    color: #e8e8e8;
+    margin-bottom: 12px;
+    letter-spacing: .04em;
+  }
+  .card p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.7;
+  }
+  .icon {
+    font-size: 28px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .about {
+    background: #16161f;
+    border: 1px solid #2a2a35;
+    border-radius: 14px;
+    padding: 36px;
+    margin-top: 40px;
+  }
+  .about h2 {
+    font-size: 18px;
+    color: #e8e8e8;
+    margin-bottom: 20px;
+    letter-spacing: .06em;
+  }
+  .about p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 12px;
+  }
+  .about ul {
+    font-size: 14px;
+    color: #aaa;
+    padding-left: 20px;
+  }
+  .about ul li { margin-bottom: 8px; }
+  footer {
+    background: #12121c;
+    border-top: 1px solid #1e1e2e;
+    padding: 32px 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+  }
+  footer a { color: #888; text-decoration: none; margin: 0 12px; }
+  footer a:hover { color: #ccc; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>KUON Music Tools</h1>
+  <span>Music Content Automation</span>
+</header>
+
+<div class="hero">
+  <h2>Music, Delivered Automatically</h2>
+  <p>KUON Music Tools は、オリジナル音楽コンテンツの制作から SNS 配信までを自動化する、クリエイター向けのツールセットです。</p>
+</div>
+
+<div class="section">
+  <div class="cards">
+    <div class="card">
+      <span class="icon">🎵</span>
+      <h3>うたまち</h3>
+      <p>日本各地の地名をテーマにした音楽コンテンツを自動生成し、YouTube・TikTok へ配信します。</p>
+    </div>
+    <div class="card">
+      <span class="icon">✝️</span>
+      <h3>Grace Notes</h3>
+      <p>クリスチャン向けのインストゥルメンタル・ワーシップ音楽を自動生成し、各 SNS プラットフォームへ配信します。</p>
+    </div>
+    <div class="card">
+      <span class="icon">📲</span>
+      <h3>TikTok 連携</h3>
+      <p>TikTok Content Posting API を使用して、生成した動画コンテンツをアカウントに自動投稿します。</p>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>このツールについて / About This Tool</h2>
+    <p>KUON Music Tools は、個人クリエイターが運営する音楽コンテンツ自動化ツールです。</p>
+    <p>TikTok API を使用して行う操作:</p>
+    <ul>
+      <li>生成した短編動画（Shorts）を、認証済みのTikTokアカウントに投稿する</li>
+      <li>投稿ステータスを確認する</li>
+    </ul>
+    <p style="margin-top:16px;">このツールはユーザー自身のPCで動作し、第三者のサーバーにデータを送信しません。</p>
+    <p style="margin-top:16px;">お問い合わせ: <a href="mailto:takao983@gmail.com" style="color:#7eb8d4;">takao983@gmail.com</a></p>
+  </div>
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <br><br>
+  &copy; 2025 KUON Music Tools. All rights reserved.
+</footer>
+
+</body>
+</html>
